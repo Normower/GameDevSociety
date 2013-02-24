@@ -7,7 +7,7 @@ using System.Collections;
             Simple script to fire bullets, if using the character controller attach it to the main camera.
 */
 
-public class Player : MonoBehaviour {
+public class Shoot : MonoBehaviour {
 
     public GameObject bulletPrefab; //set the object that you want to spawn as a bullet in the inspector, it must have a rigidbody
     private GameObject bullet;
