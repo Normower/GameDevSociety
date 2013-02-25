@@ -14,7 +14,7 @@ public class LookAtPointScript : MonoBehaviour {
    [SerializeField]//saves changes made
     private Vector3 lookAtPoint;
 
-    public Vector3 LookAtPoint//it's bad code practice to expose variables, by using this we can apply our own validation.
+    public Vector3 LookAtPoint//it's bad practice to expose variables, by using this we can apply our own validation.
     {
         get { return lookAtPoint; }
         set
